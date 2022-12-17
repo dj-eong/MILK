@@ -1,0 +1,130 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #ECF1F3;
+}
+
+#mainNavbar {
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: background 500ms;
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #00425c;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #00425c;
+}
+
+#homeBackground {
+    position: relative;
+}
+
+.homeAction {
+    position: absolute;
+    top: 21%;
+    width: 100%;
+}
+
+#home {
+    min-width: 100%;
+    height: 100vh;
+    background: no-repeat center/cover url(milk_background3.jpg);
+}
+
+#gotMilk {
+    height: 7.5rem;
+    padding-left: 20px;
+}
+
+.homeAction button {
+    background-color: #e57da2;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 4px 24px 8px;
+    transition: background-color 100ms, color 100ms;
+    cursor: pointer;
+}
+
+.homeAction button:hover {
+    background-color: white;
+    color: #e57da2;
+}
+
+#infoBackground {
+    background-color: #ECF1F3;
+}
+
+#info h2 {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+#info p {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.navbar.scrolled {
+    background: #0388ba;
+}
+
+@media (max-width: 991px) {
+    #info h2 {
+        font-size: 2.5rem;
+    }
+
+    #info p {
+        font-size: 1rem;
+    }
+
+    /*  #home {
+        background: no-repeat top/contain url(milk_background.jpeg);
+    } */
+}
+
+@media (max-width: 575px) {
+    #mainNavbar {
+        background-color: #0388ba;
+    }
+
+    #info img {
+        height: 25rem;
+        margin-bottom: 48px;
+    }
+
+    #info h2 {
+        font-size: 2rem;
+    }
+
+    #info .textInfo {
+        padding-right: 48px;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+
+@media (max-height: 600px) {
+    .homeAction {
+        top: 14%;
+    }
+}
+
+@media (min-aspect-ratio: 2560/1080) {
+    .homeAction {
+        top: 8%;
+    }
+}
