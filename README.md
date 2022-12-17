@@ -1,2 +1,2 @@
 # MILK
-HTML/CSS practice
+Just some HTML/CSS practice.
